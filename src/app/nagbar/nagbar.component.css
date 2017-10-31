@@ -1,0 +1,95 @@
+
+/*body {*/
+/*background-image: url("https://in.bmscdn.com/showcaseimage/eventimage/lavakusha-26-10-2017-02-21-34-406.jpg");*/
+/*}*/
+
+ul {
+  /*float:right;*/
+  font-family: "Britannic Bold";
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  /*border: ridge;*/
+  /*border-bottom: hidden;*/
+}
+
+li.active{
+  float: left;
+  font-family: "Arial Black";
+  font-size: 13px;
+}
+li.active1{
+  font-family: "Arial";
+  float: right;
+  font-size: 12px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: blue;
+  background-position: center;
+}
+
+/*.active {*/
+/*background-color: #4CAF50;*/
+/*}*/
+/*.navbar {*/
+/*position: fixed;*/
+/*width: 100%;*/
+/*}*/
+/*.navbar .nav {*/
+/*float: none;*/
+/*}*/
+/*.navbar .nav>li {*/
+/*width: 15%;*/
+/*}*/
+/*.content {*/
+/*padding-top: 80px;*/
+/*}*/
+
+#nav-collapse li a:hover {
+  color: blue;
+}
+#nav-collapse a:hover {
+
+  background-color: green;
+  background-position: center;
+}
+
+#nav-collapse  li.active {
+  /*color:green;*/
+  background-color: black;
+}
+/*#nav-collapse  li.active a {*/
+/*background-color: red;*/
+/*}*/
+input[type=text] {
+  width: 220px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("http://findicons.com/files/icons/557/creme/128/find.png");
+  background-size: 10%;
+  background-position: left;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/*input[type=text]:focus {*/
+/*width: 35%;*/
+/*}*/
+
